@@ -1,0 +1,79 @@
+{
+    "games": [{
+            "id": 1,
+            "name": "God of War",
+            "studio": "Santa Monica",
+            "category": "Action",
+            "year": "2018",
+            "image": "god-of-war.jpg",
+            "description": "lorem",
+            "comments": [
+                {
+                    "user": "Michel",
+                    "comment": "It's the best game ever !"
+                },
+                {
+                    "user": "John",
+                    "comment": "It's the worst game ever !"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Assassin's Creed 2",
+            "studio": "Ubisoft Montreal",
+            "category": "Aventure",
+            "year": "2009",
+            "image": "assassins-creed-2.jpg",
+            "description": "lorem",
+            "comments": [
+                {
+                    "user": "Patrick",
+                    "comment": "It's the best game ever !"
+                },
+                {
+                    "user": "Jennifer",
+                    "comment": "It's the worst game ever !"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Monster Hunter World",
+            "studio": "Capcom",
+            "category": "Action/RPG",
+            "year": "2018",
+            "image": "monster-hunter-world.jpg",
+            "description": "lorem",
+            "comments": [
+                {
+                    "user": "Constance",
+                    "comment": "It's the best game ever !"
+                },
+                {
+                    "user": "Albert",
+                    "comment": "It's the worst game ever !"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Infamous: Second Son",
+            "studio": "Sucker Punch",
+            "category": "Action/Aventure",
+            "year": "2014",
+            "image": "infamous-second-son.jpg",
+            "description": "lorem",
+            "comments": [
+                {
+                    "user": "Louis",
+                    "comment": "It's the best game ever !"
+                },
+                {
+                    "user": "Sabrina",
+                    "comment": "It's the worst game ever !"
+                }
+            ]
+        }
+    ]
+}
