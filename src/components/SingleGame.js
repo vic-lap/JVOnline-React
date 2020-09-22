@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 class SingleGame extends React.Component {
   constructor(props) {
-
+    super(props);
     const data = JSON.parse(localStorage.getItem("data"));
     const id = parseInt(this.props.match.params.id, 10);
     const games = data.games;

@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 class GameList extends React.Component {
   constructor() {
     super();
-    const data = JSON.parse(localStorage.getItem("data"));
-    //const data = require('./../data/data.json');
+    //const data = JSON.parse(localStorage.getItem("data"));
+    const data = require('./../data/data.json');
     this.state = {
       data: data,
     };
-    //localStorage.setItem('data', JSON.stringify(data));
+    localStorage.setItem('data', JSON.stringify(data));
   }
 
   componentDidMount() {
